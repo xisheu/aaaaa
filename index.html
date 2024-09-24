@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <style> 
+         /*      
+         body {
+            background: pink 	url("bg1.jpg") no-repeat fixed right top;
+         }*/
+         
+         p {
+            color: blue;
+            text-align: center;
+            text-decoration: line-through;
+            
+         }
+         
+         img {
+            vertical-align: top;
+            width: 5px;
+            height: 5px;
+         }
+
+
+         p.lorem {
+            text-align: justify;
+            text-decoration: none;
+            
+            text-indent: 50px;
+            letter-spacing: 10px;
+            line-height: 3;
+            word-spacing: 3px;
+
+         }
+         
+         p.lorem2 {
+            text-align: justify;
+            text-decoration: none;
+            
+            font-family: "Century", "Times New Roman", Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+         }
+         
+         
+         table {
+            border: 1px solid;
+            border-top-color: cyan;
+            border-bottom-color: red;
+            border-left-color: blue;
+            border-right-color: orange;
+         }
+          
+         span.border-style p {
+            color: black;
+            text-decoration: none;
+         }
+         
+         span.border-style {
+            border: 5px;
+            border-color: black;
+         }
+         
+         .table2 {
+            border-width: 3px;
+            border-style: solid;
+            border-color: red;
+         }
+         
+         .table2 {
+            border-width: 3px 5px 10px 1px;
+            border-style: solid;
+            border-color: red;
+         }
+         
+         .table3 {
+            border: 5px solid cyan;
+         }
+         
+         .p-margin {
+            border: 5px solid black;
+            background-color: pink;
+            margin: 10px;
+         }
+         
+         .span-margin {
+            background: pink;
+         }
+         
+         .span-margin p {
+            color: black;
+            text-decoration: none;
+            text-align: left;
+         }
+         
+         body {
+            background: cyan;
+         }
+         
+         body {
+            background: none;
+         }
+         
+         .p-pad {
+            border: 5px solid black;
+            background: yellow;
+            padding: 10px;
+         }
+         
+         .span-pad {
+            background: yellow;
+         }
+         
+         .span-pad p {
+            color: black;
+            text-decoration: none;
+            text-align: left;
+         }
+         
+         body {
+            margin: 0px;
+         }
+         
+         .div-box {
+            background-color: lightpink;
+            
+         }
+         
+         .div-box * {
+            color: black;
+            text-decoration: none;
+            text-align: left;
+         }
+         
+         .div-box h1 {
+            text-align: center;
+         }
+         
+         .div-box p {
+            margin:20px;
+            border: 10px yellow solid;
+            padding: 30px;
+            width: 200px;
+            
+            background-color: beige;
+            text-align: center;
+         }
+         
+         .overflow p {
+            height: 50px;
+            overflow: scroll;
+         }
+         
+         .box-sizing p {
+            box-sizing: border-box;
+         }
+         
+      </style>
+   </head>
+   <body>
+      <p>This is a paragraph.</p>
+      <p>This is another paragraph.</p>
+      <span>This is a span.</span>
+      <p>
+         An 
+         <img src="box.gif">      
+         image with a text-top alignment.
+      </p>
+      
+      <br><br><br><br>
+      
+      <p class="lorem">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Nullam fermentum augue erat, eu placerat magna volutpat 
+         sit amet. Quisque posuere pharetra nisi, sed maximus 
+         neque volutpat vel. Quisque lacinia sapien ut ipsum 
+         gravida feugiat quis ut lectus. Donec non cursus ante, 
+         nec suscipit orci. Nam convallis tortor at gravida 
+         cursus. Phasellus sagittis condimentum risus, sit amet 
+         mollis magna semper blandit. Phasellus mollis rutrum elit 
+         non ornare. Fusce blandit felis ac nulla iaculis, ac 
+         euismod ipsum egestas. Vestibulum varius vitae elit at 
+         finibus. Aliquam consequat at diam sed facilisis.
+      </p>
+      </p>
+      
+      <br><br><br><br>
+      
+      <p class="lorem2">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+         Nullam fermentum augue erat, eu placerat magna volutpat 
+         sit amet. Quisque posuere pharetra nisi, sed maximus 
+         neque volutpat vel. Quisque lacinia sapien ut ipsum 
+         gravida feugiat quis ut lectus. Donec non cursus ante, 
+         nec suscipit orci. Nam convallis tortor at gravida 
+         cursus. Phasellus sagittis condimentum risus, sit amet 
+         mollis magna semper blandit. Phasellus mollis rutrum elit 
+         non ornare. Fusce blandit felis ac nulla iaculis, ac 
+         euismod ipsum egestas. Vestibulum varius vitae elit at 
+         finibus. Aliquam consequat at diam sed facilisis.
+      </p>
+      
+      <br><br><br><br>
+      
+      <table>
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+			</tr>
+		</table>
+      
+      <br><br><br><br>
+      
+      <span class="border-style">
+         <p style="border-style: none">None</p>
+         <p style="border-style: hidden">Hidden</p>
+         <p style="border-style: solid">Solid</p>
+         <p style="border-style: dotted">Dotted</p>
+         <p style="border-style: dashed">Dashed</p>
+         <p style="border-style: double">Double</p>
+         <p style="border-style: groove">Groove</p>
+         <p style="border-style: ridge">Ridge</p>
+         <p style="border-style: inset">Inset</p>
+         <p style="border-style: outset">Outset</p>
+      </span>
+      
+      <br><br><br><br>
+      
+      <table class="table2">
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+			</tr>
+		</table>
+      
+      <br><br><br><br>
+      
+      <table class="table3">
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+			</tr>
+		</table>
+      
+      <br><br><br><br>
+      
+      <span class="span-margin">
+         <p class="p-margin">I have a margin.</p>
+      </span>
+      
+      <br><br><br><br>
+      
+      <span class="span-pad">
+         <p class="p-pad">I have a padding.</p>
+      </span>
+      
+      <div class="div-box">
+         <h1>Demonstrating the box model</h1>
+         <p>I am inside a paragraph.</p>
+      </div>
+      
+      <div class="div-box overflow">
+         <p>This is an attempt to write a very long paragraph. Did the content overflow, or did it not? That is the question.</p>
+      </div>
+      
+      <div class="div-box overflow box-sizing">
+         <p>This is an attempt to write a very long paragraph. Did the content overflow, or did it not? That is the question.</p>
+      </div>
+   </body>
+</html>
+apps-fileview.texmex_20240911.10_p3
+4-css-intro.html
+Displaying 4-css-intro.html.
